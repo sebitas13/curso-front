@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="public/styles/tabla.css" />
+    <title>Tablas estática en HTML</title>
+  </head>
+  <body>
+    <div id="app">
+      <header><h1>Tabla estática</h1></header>
+      <main>
+        <table>
+          <thead>
+            <tr>
+              <th>Producto</th>
+              <th>Precio</th>
+              <th>Descuento</th>
+              <th>Precio Neto</th>
+              <th>Cantidad</th>
+              <th>Igv</th>
+              <th>Subtotal</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Laptop Acer</td>
+              <td>2000.00</td>
+              <td>50%</td>
+              <td>1000.00</td>
+              <td>1</td>
+              <td>18%</td>
+              <td>10000</td>
+            </tr>
+            <tr>
+              <td>Teclado</td>
+              <td>100.00</td>
+              <td>20%</td>
+              <td>80.00</td>
+              <td>2</td>
+              <td>18%</td>
+              <td>20000</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td></td>
+              <td>1000</td>
+              <td>1000</td>
+              <td>1000</td>
+              <td>1000</td>
+              <td>1000</td>
+              <td>1000</td>
+            </tr>
+          </tfoot>
+        </table>
+      </main>
+    </div>
+  </body>
+</html>

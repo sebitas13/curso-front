@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  padding: 2rem;
+  margin: 0 auto;
+  max-width: 900px;
+  color: #333;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  margin-bottom: 2rem;
+  text-align: center;
+  color: dodgerblue;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+main a {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+}
+
+.opcion {
+  padding: 1rem;
+  max-width: 300px;
+  width: 20%;
+  height: 150px;
+  margin: 2rem;
+  border: 0px solid black;
+  border-radius: 10px;
+
+  background-color: mediumseagreen;
+}
+
+.opcion:hover {
+  background-color: rgb(225, 93, 119);
+}
