@@ -37,5 +37,6 @@ formulario.addEventListener("submit", (event) => {
 });
 
 btnCancelar.addEventListener("click", () => {
-  window.location.href = "/index.html";
+  // window.location.href = "/index.html";
+  window.location.href = "https://sebitas13.github.io/curso-front/";
 });
